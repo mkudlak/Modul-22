@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 
 export default class About extends Component {
   render() {
     return (
-      <div><h1>About page</h1></div>
+      <div>
+        <h1>About</h1>
+      </div>
     );
   }
 }

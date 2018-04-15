@@ -1,7 +1,8 @@
-
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
-export default class Home extends Component {
+
+class Home extends Component {
   render() {
     return (
       <div>
@@ -11,3 +12,18 @@ export default class Home extends Component {
   }
 }
 
+const mapStateToProps = (state) => {
+  return {};
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {};
+};
+
+Home.propTypes = {
+};
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Home);
