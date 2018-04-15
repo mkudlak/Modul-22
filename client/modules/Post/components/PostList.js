@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react';
+import cuid from 'cuid';
 
 // Import Components
 import PostListItem from './PostListItem/PostListItem';
